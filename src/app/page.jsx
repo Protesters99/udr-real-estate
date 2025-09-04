@@ -1,7 +1,11 @@
+import Hero from "@/components/home-page/hero";
+import Listings from "@/components/home-page/listings";
+
 export default function Home() {
   return (
-    <div>
-      Yam is sweeter than paw paw
-    </div>
+    <main>
+      <Hero />
+      <Listings />
+    </main>
   );
 }
